@@ -1,0 +1,68 @@
+
+
+@media only screen and(max-width: 720px) {
+    header{
+        width: 100%;
+    }
+    .navbar{
+        width: 300px;
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        a{
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 1.3rem;
+            color: blue;
+        }
+}
+
+
+    #menu{
+        width: 420px;
+    }
+
+    #footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        width: 100%;
+    }
+
+    .navbar{
+        
+            position: absolute;
+            top: 40px;
+            right: 0px;
+            a{
+                color: #ff0;
+                text-decoration: none;
+                margin-right: 12px;
+                font-size: 1.2rem;
+            }
+    }
+
+    #menu{
+        width: 340px;
+    }
+    #footer{
+        width: 100%;
+    }
+
+    img{
+        margin-left: 90px;
+        max-width: 60px;
+    }
+    .flavor, .dissert, .price{
+        font-size: 12px;
+        color: white;
+    }
+    h1, h2{
+        font-size: 30px;
+        color: brown;
+    }
+    
+}

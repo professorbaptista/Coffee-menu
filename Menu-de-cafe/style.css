@@ -1,0 +1,133 @@
+*, 
+*::after, ::before{
+    box-sizing: border-box;
+}
+
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 40px;
+    position: relative;
+    background-image: linear-gradient(#0a0a23, #0b0b83);
+}
+
+.autor{
+    display: unset;
+    margin-left: unset;
+    width: unset;
+    height: 80px;
+    width: 80px;
+    margin: 10px 0 0 40px;
+}
+
+.navbar{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    a{
+        color: #fff;
+        text-decoration: none;
+        margin-right: 120px;
+        font-size: 1.6rem;
+    }
+
+    a:hover{
+        color: brown;
+
+    }
+}
+
+#menu{
+    max-width: 600px;
+    margin: auto;
+    color: burlywood;
+    padding: 40px;
+    border: 8px solid brown;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-size: 40px;
+    margin-top: 0;
+} 
+
+hr{
+    background-color: brown;
+    border-color: brown;
+    height: 5px;
+}
+
+img{
+    display: inline-block;
+    margin-left: 210px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor {
+    width: 75%;
+    font-size: 17px;
+}
+
+.price{
+    width: 25%;
+    font-size: 17px;
+}
+
+.flavor, .dissert{
+    width: 75%;
+}
+
+footer{
+    font-size: 18px;
+    a{
+        color: black;
+    }
+    a:visited{
+        color: grey;
+    }
+    a:hover{
+        color: brown;
+    }
+    a:active{
+        color: white;
+    }
+    .addrees{
+        margin-bottom: 7px;
+    }
+}
+
+#footer{
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(#0a0a23, #0b0b83);
+}
+
